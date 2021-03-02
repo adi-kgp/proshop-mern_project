@@ -22,8 +22,8 @@ const products = [
     category: 'Electronics',
     price: 599.99,
     countInStock: 10,
-    rating: 0,
-    numReviews: 0,
+    rating: 4.5,
+    numReviews: 8,
   },
   {
     _id: '3',
@@ -35,8 +35,8 @@ const products = [
     category: 'Electronics',
     price: 929.99,
     countInStock: 0,
-    rating: 0,
-    numReviews: 0,
+    rating: 5,
+    numReviews: 13,
   },
   {
     _id: '4',
@@ -48,8 +48,8 @@ const products = [
     category: 'Electronics',
     price: 399.99,
     countInStock: 10,
-    rating: 0,
-    numReviews: 0,
+    rating: 2.5,
+    numReviews: 10,
   },
   {
     _id: '5',
@@ -61,8 +61,8 @@ const products = [
     category: 'Electronics',
     price: 49.99,
     countInStock: 7,
-    rating: 0,
-    numReviews: 0,
+    rating: 4.7,
+    numReviews: 7,
   },
   {
     _id: '6',
@@ -74,9 +74,9 @@ const products = [
     category: 'Electronics',
     price: 29.99,
     countInStock: 0,
-    rating: 0,
-    numReviews: 0,
+    rating: 4,
+    numReviews: 5,
   },
 ]
 
-module.exports = products
+export default products
